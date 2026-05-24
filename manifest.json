@@ -1,0 +1,11 @@
+{
+  "id": "book-tracker",
+  "name": "Book Tracker",
+  "version": "1.0.0",
+  "minAppVersion": "1.4.0",
+  "description": "Track your reading life: books, reading status, ratings, reviews, quotes, and linked themes. A personal library in plain markdown.",
+  "author": "wesswart77",
+  "authorUrl": "https://github.com/wesswart77",
+  "fundingUrl": "https://www.buymeacoffee.com/wesswart77",
+  "isDesktopOnly": false
+}

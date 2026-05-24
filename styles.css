@@ -1,0 +1,98 @@
+/* Book Tracker */
+
+.bt-library { padding: 16px; }
+
+.bt-header {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin-bottom: 12px;
+}
+.bt-header h2 { margin: 0; }
+
+.bt-filters {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 6px;
+	margin-bottom: 16px;
+}
+
+.bt-filter-btn {
+	padding: 4px 12px;
+	border-radius: 20px;
+	border: 1px solid var(--background-modifier-border);
+	background: var(--background-secondary);
+	color: var(--text-muted);
+	font-size: 0.85em;
+	cursor: pointer;
+}
+.bt-filter-btn.active,
+.bt-filter-btn:hover {
+	background: var(--interactive-accent);
+	color: var(--text-on-accent);
+	border-color: var(--interactive-accent);
+}
+
+.bt-count { color: var(--text-muted); font-size: 0.85em; margin-bottom: 12px; }
+.bt-empty { color: var(--text-muted); font-style: italic; }
+
+.bt-grid {
+	display: flex;
+	flex-direction: column;
+	gap: 8px;
+}
+
+.bt-card {
+	padding: 12px;
+	border-radius: 6px;
+	background: var(--background-secondary);
+	border: 1px solid var(--background-modifier-border);
+}
+
+.bt-card-top {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin-bottom: 6px;
+}
+
+.bt-status-icon { font-size: 1.1em; }
+
+.bt-stars {
+	color: var(--color-yellow);
+	letter-spacing: 1px;
+	font-size: 0.9em;
+}
+
+.bt-card-title {
+	font-weight: 600;
+	cursor: pointer;
+	color: var(--text-accent);
+	margin-bottom: 2px;
+}
+.bt-card-title:hover { text-decoration: underline; }
+
+.bt-card-author { color: var(--text-muted); font-size: 0.9em; }
+.bt-card-genre {
+	display: inline-block;
+	margin-top: 4px;
+	padding: 2px 8px;
+	border-radius: 4px;
+	background: var(--tag-background);
+	color: var(--tag-color);
+	font-size: 0.8em;
+}
+
+.bt-btn-primary {
+	background: var(--interactive-accent);
+	color: var(--text-on-accent);
+	border: none;
+	border-radius: 4px;
+	padding: 5px 12px;
+	font-size: 0.9em;
+	cursor: pointer;
+}
+.bt-btn-primary:hover { background: var(--interactive-accent-hover); }
+
+.bt-modal .setting-item { border-top: none; }
+.bt-textarea { width: 100%; resize: vertical; }
