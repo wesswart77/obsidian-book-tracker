@@ -1,7 +1,7 @@
 {
   "id": "book-tracker",
   "name": "Book Tracker",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "minAppVersion": "1.4.0",
   "description": "Track your reading life: books, reading status, ratings, reviews, quotes, and linked themes. A personal library in plain markdown.",
   "author": "wesswart77",
